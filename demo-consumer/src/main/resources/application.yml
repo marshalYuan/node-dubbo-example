@@ -1,0 +1,7 @@
+spring:
+  dubbo:
+    application:
+      name: my-consumer
+    registry:
+      address: zookeeper://192.168.99.100:2181
+    scan: com.codedocker.nodeDubboExample.demoConsumer
